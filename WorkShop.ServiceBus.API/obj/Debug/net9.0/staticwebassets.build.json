@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3K5YZRcChXLjIzifQqr52uzApJJuCZvm3MuruYtNbxA=",
+  "Source": "WorkShop.ServiceBus.API",
+  "BasePath": "_content/WorkShop.ServiceBus.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

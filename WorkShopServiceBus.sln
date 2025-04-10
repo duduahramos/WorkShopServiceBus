@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkShop.ServiceBus.Worker", "WorkShop.ServiceBus.Worker\WorkShop.ServiceBus.Worker.csproj", "{3CCA7982-A26C-44A6-A13F-2EADE03F7378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkShop.ServiceBus.API", "WorkShop.ServiceBus.API\WorkShop.ServiceBus.API.csproj", "{05BDBFBA-A5D4-CDED-F41C-C45A6C06361F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CCA7982-A26C-44A6-A13F-2EADE03F7378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCA7982-A26C-44A6-A13F-2EADE03F7378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCA7982-A26C-44A6-A13F-2EADE03F7378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCA7982-A26C-44A6-A13F-2EADE03F7378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BDBFBA-A5D4-CDED-F41C-C45A6C06361F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BDBFBA-A5D4-CDED-F41C-C45A6C06361F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BDBFBA-A5D4-CDED-F41C-C45A6C06361F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BDBFBA-A5D4-CDED-F41C-C45A6C06361F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A42D24D4-4822-4C17-8798-10C897936BFA}
+	EndGlobalSection
+EndGlobal

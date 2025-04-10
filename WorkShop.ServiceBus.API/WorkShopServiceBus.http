@@ -1,0 +1,6 @@
+@WorkShopServiceBus_HostAddress = http://localhost:5081
+
+GET {{WorkShopServiceBus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
