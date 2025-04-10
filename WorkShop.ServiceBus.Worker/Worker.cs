@@ -1,4 +1,5 @@
 using Azure.Messaging.ServiceBus;
+using System.Text.Json;
 
 namespace Workshop.ServiceBus.Worker
 {
@@ -37,7 +38,33 @@ namespace Workshop.ServiceBus.Worker
 
             _logger.LogInformation($"Mensagem processada: {body}");
 
+            await SendMessageToDiscord(body);
+
             await args.CompleteMessageAsync(args.Message);
+        }
+
+        private async Task SendMessageToDiscord(string messageContent)
+        {
+            var message = new
+            {
+                content = $"A mensagem do ServiceBus foi processada: {messageContent}"
+            };
+
+            var json = JsonSerializer.Serialize(message);
+
+            var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+
+            try
+            {
+                var httpClient = new HttpClient();
+
+                var response = await httpClient.PostAsync("https://discord.com/api/webhooks/YOUR_WEBHOOK_URL", content);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e.Message);
+                throw;
+            }
         }
 
         private Task ErrorHandler(ProcessErrorEventArgs args)
