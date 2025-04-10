@@ -58,7 +58,7 @@ namespace Workshop.ServiceBus.Worker
             {
                 var httpClient = new HttpClient();
 
-                var response = await httpClient.PostAsync("https://discord.com/api/webhooks/YOUR_WEBHOOK_URL", content);
+                var response = await httpClient.PostAsync(_configuration["Discord:WebHook"], content);
             }
             catch (Exception e)
             {

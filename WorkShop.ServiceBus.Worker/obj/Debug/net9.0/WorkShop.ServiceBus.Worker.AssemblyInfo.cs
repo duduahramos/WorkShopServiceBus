@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkShop.ServiceBus.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+701576526ee90e9fccd64952f0cf8c245aa8bcdc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd5257026df6e6dc7c3bb4195558a99131e21f3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkShop.ServiceBus.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkShop.ServiceBus.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
