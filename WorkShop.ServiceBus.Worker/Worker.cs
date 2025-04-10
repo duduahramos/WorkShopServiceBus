@@ -33,7 +33,7 @@ namespace Workshop.ServiceBus.Worker
 
         private async Task MessageHandler(ProcessMessageEventArgs args)
         {
-            mstring body = args.Message.Body.ToString();
+            string body = args.Message.Body.ToString();
 
             _logger.LogInformation($"Mensagem processada: {body}");
 
